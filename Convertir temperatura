@@ -1,0 +1,6 @@
+temp = int(input("Ingresa tus grados en celius"))
+farenheit = temp * 9/5 +32
+print("Su resultado en farenheit es", farenheit)
+kelvin = temp + 273.15
+
+print("Su resultado en kelvin es:" , kelvin)
