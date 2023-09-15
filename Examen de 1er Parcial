@@ -1,0 +1,19 @@
+pre = int(input("Ingresa el precio del articulo que desea comprar porfavor:"))
+cant = int(input("Ingresa el numero de articulos que desea comprar porfavor: ")) 
+totsin = pre*cant
+totyens = pre * 8.38
+print("Su total sin un cupón de descuento es de:", totsin ,"pesos mexicanos")
+print ("Su total en yenes es de ", totyens)
+porj=  int(input("¿Cuenta con un cupón de descuento? Si es así, introduscca el código:"))
+desc = porj * 0.01
+totdesc = totsin * desc
+totdescreal = totsin - totdesc
+ahopes = totdescreal - totdesc
+totydesc = totyens * desc
+totydescreal = totyens - totydesc
+ahoyen = totydescreal - totydesc
+print("Su total con un cupón es de " , totdescreal, "pesos mexicanos")
+print(" Y su ahorro es de ", ahopes,"pesos mexicanos" )
+
+print ("Su total con un cupon es de", totydescreal, "yenes")
+print (" Y su ahorro es de ", ahoyen,"yenes")
