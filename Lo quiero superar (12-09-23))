@@ -1,0 +1,6 @@
+def carta():
+  print ("Que le paso a tu novio?")
+  y =input()
+  print ("Oh no lo lamento mucho, ojala encuentres a alguien mejor, como yo ")
+
+carta()
