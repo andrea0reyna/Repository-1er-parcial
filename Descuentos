@@ -1,0 +1,8 @@
+pre = int(input("Ingrese el Precio del producto: "))
+print("Ingresa tu cupón de descuento ")
+porj = int(input("Descuento: "))
+desc = porj * 0.01
+total = porj * desc
+print("Su total a pagar es de : ", total)
+ahorro = pre - total
+print("Te has ahorrado:", ahorro)
